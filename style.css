@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(17, 17, 43);
+  color: white;
+}
+
+nav {
+  flex-direction: row;
+  background-color: rgb(20, 20, 76);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 57px;
+}
+#nav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(146, 146, 241);
+}
+main hr {
+  border: 0;
+  background: rgb(249, 249, 250);
+  height: 1.2px;
+  margin: 40px 85px;
+}
+.left {
+  font-size: 1.5rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  margin: 140px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 3rem;
+  text-align: left;
+}
+.leftsection .btn {
+  padding: 12px;
+  background: rgb(205, 81, 205);
+  color: white;
+  border: 2px solid white;
+
+  cursor: pointer;
+}
+.leftsection .button {
+  padding: 50px;
+}
+
+.rightsection img {
+  width: 80%;
+}
+.clr {
+  color: rgb(115, 115, 185);
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  padding: 30px;
+}
+.secondsection h1 {
+  text-align: center;
+  font: 3rem;
+}
+.secondsection .box {
+  margin: 50px 0;
+}
+.secondsection p {
+  padding: 10px 0;
+  font-size: 1.5rem;
+  color: burlywood;
+}
+.thirdsection {
+  max-width: 80vw;
+  margin: auto;
+  padding: 30px;
+}
+.thirdsection h1 {
+  font: 1.9rem;
+  text-align: center;
+}
+.thirdsection ul {
+  list-style: none;
+  padding: 25px;
+}
+.thirdsection li {
+  padding: 10px 0;
+  color: blanchedalmond;
+}
+.thirdsection .box {
+  display: flex;
+  padding: 50px 122px;
+  justify-content: space-around;
+}
+.fourthsection {
+  max-width: 80vw;
+  margin: auto;
+  padding: 30px;
+}
+.fourthsection h1 {
+  font: 1.9rem;
+  text-align: center;
+}
+.fourthsection .box {
+  padding: 50px 122px;
+  justify-content: space-around;
+}
+.fourthsection h5 {
+  padding: 10px 0;
+  font-size: 1.5rem;
+  color: burlywood;
+}
+.fourthsection li {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.fifthsection {
+  max-width: 80vw;
+  margin: auto;
+  padding: 30px;
+}
+.fifthsection h1 {
+  font: 1.9rem;
+  text-align: center;
+}
+.fifthsection .box {
+  padding: 50px 122px;
+  justify-content: space-around;
+}
+.fifthsection h5 {
+  padding: 10px 0;
+  font-size: 1.5rem;
+  color: burlywood;
+}
+.fifthsection ul {
+  list-style: circle;
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.fifthsection li {
+  padding: 10px 0;
+}
+.sixthsection {
+  max-width: 80vw;
+  margin: auto;
+  padding: auto;
+}
+.sixthsection h1 {
+  font: 1.9rem;
+  text-align: center;
+}
+.sixthsection .box {
+  padding: 15px 0;
+  padding-left: 10%;
+}
+.sixthsection ul {
+  padding: 5px;
+}
+.sixthsection a {
+  color: white;
+  text-decoration: none;
+}
+
+.sixthsection a:hover {
+  cursor: pointer;
+  color: bisque;
+}
+form {
+  text-align: center;
+  background-color: rgb(202, 184, 184);
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+form input,
+form textarea {
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: white;
+  font-size: 16px;
+}
+form button {
+  padding: 15px;
+  background: #433ac161;
+  color: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+}
+
+footer {
+  margin: 100px 0;
+  margin-bottom: 0px;
+  background-color: #0e0e1a;
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-around;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer ul li a:hover {
+  color: blue;
+}
+.footer > div {
+  width: 123px;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: grey;
+  padding: 12px 0;
+}
+@media screen and (max-width: 426px) {
+  body{
+    font-size: 16px;
+  }
+  .right ul {
+    display: none;
+  }
+  .firstsection{
+    margin-bottom: 10px;
+  }
+  .firstsection .leftsection,
+  .firstsection .rightsection {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .rightsection img {
+    max-width: 100%;
+  }
+  .leftsection .button {
+    margin-bottom: 0;
+    size: 10px;
+    
+  }
+
+  
+  .leftsection .btn {
+    margin-bottom: 0;
+    padding-left: 0;
+    flex-direction: row;
+    margin-right: 10px;
+    
+  }
+  .secondsection{
+    padding: 0px;
+  }
+  .secondsection .box p{
+    font-size: 16px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .thirdsection .box {
+    padding: 0px;
+  }
+
+  .fourthsection .box {
+    font-size: 16px;
+    display: flex;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .fourthsection .box h5 {
+    font-size: 16px;
+    
+  }
+  .fourthsection .box li {
+    font-size: 16px;
+    
+  }
+  .fifthsection .box {
+    font-size: 16px;
+    display: flex;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .fifthsection .box h5{
+    font-size: 16px;
+    
+  }
+  .fifthsection .box li{
+    font-size: 16px;
+    
+  }
+  .sixthsection .box{
+    font-size: 16px;
+    display: flex;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  .footer {
+    margin-top: -50px;
+    justify-content: center;
+  }
+
+  .footer div {
+    flex: 1 1 100%;
+    text-align: center;
+    padding: 23px;
+  }
+  
+
+}
